@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.Runtime.Caching;
 using MyShop.Core.Models;
 
+//Can delete now, replaced by InMemoryRepository
+
 namespace MyShop.DataAccess.InMemory
 {
     public class ProductRepository
