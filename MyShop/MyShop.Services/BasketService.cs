@@ -23,7 +23,7 @@ namespace MyShop.Services
             this.productContext = ProductContext;
         }
 
-        private Basket GetBasket(HttpContextBase httpContext,bool createIfNull)
+        private Basket GetBasket(HttpContextBase httpContext, bool createIfNull)
         {
             HttpCookie cookie = httpContext.Request.Cookies.Get(BasketSessionName);
 
@@ -117,7 +117,8 @@ namespace MyShop.Services
                                   Id = b.Id,
                                   Quantity = b.Quantity,
                                   ProductName = p.Name,
-                                  Price = p.Price
+                                  Price = p.Price,
+                                  Image = p.Image
                               }
                               ).ToList();
                 return results;
