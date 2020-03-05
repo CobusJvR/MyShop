@@ -29,7 +29,7 @@ namespace MyShop.WebUI.Tests.Controllers
             var viewModel = (ProductListViewModel) result.ViewData.Model;
 
             Assert.AreEqual(1, viewModel.Products.Count());
-            // Arrange
+            //// Arrange
             //HomeController controller = new HomeController();
 
             //// Act
