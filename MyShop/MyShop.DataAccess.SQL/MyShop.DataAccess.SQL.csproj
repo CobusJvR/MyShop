@@ -49,25 +49,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
-    <Compile Include="Migrations\201908201646427_Initial.cs" />
-    <Compile Include="Migrations\201908201646427_Initial.Designer.cs">
-      <DependentUpon>201908201646427_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\202003031554583_Initial.cs" />
+    <Compile Include="Migrations\202003031554583_Initial.Designer.cs">
+      <DependentUpon>202003031554583_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201908221243249_AddBasket.cs" />
-    <Compile Include="Migrations\201908221243249_AddBasket.Designer.cs">
-      <DependentUpon>201908221243249_AddBasket.cs</DependentUpon>
+    <Compile Include="Migrations\202003031557499_AddBasket.cs" />
+    <Compile Include="Migrations\202003031557499_AddBasket.Designer.cs">
+      <DependentUpon>202003031557499_AddBasket.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202003031106345_Initial1.cs" />
-    <Compile Include="Migrations\202003031106345_Initial1.Designer.cs">
-      <DependentUpon>202003031106345_Initial1.cs</DependentUpon>
+    <Compile Include="Migrations\202003031558223_AddCustomer.cs" />
+    <Compile Include="Migrations\202003031558223_AddCustomer.Designer.cs">
+      <DependentUpon>202003031558223_AddCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202003031107312_AddBasket1.cs" />
-    <Compile Include="Migrations\202003031107312_AddBasket1.Designer.cs">
-      <DependentUpon>202003031107312_AddBasket1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003031108157_AddCustomers.cs" />
-    <Compile Include="Migrations\202003031108157_AddCustomers.Designer.cs">
-      <DependentUpon>202003031108157_AddCustomers.cs</DependentUpon>
+    <Compile Include="Migrations\202003031559005_AddedOrders.cs" />
+    <Compile Include="Migrations\202003031559005_AddedOrders.Designer.cs">
+      <DependentUpon>202003031559005_AddedOrders.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,20 +80,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201908201646427_Initial.resx">
-      <DependentUpon>201908201646427_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003031554583_Initial.resx">
+      <DependentUpon>202003031554583_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201908221243249_AddBasket.resx">
-      <DependentUpon>201908221243249_AddBasket.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003031557499_AddBasket.resx">
+      <DependentUpon>202003031557499_AddBasket.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003031106345_Initial1.resx">
-      <DependentUpon>202003031106345_Initial1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003031558223_AddCustomer.resx">
+      <DependentUpon>202003031558223_AddCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003031107312_AddBasket1.resx">
-      <DependentUpon>202003031107312_AddBasket1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003031108157_AddCustomers.resx">
-      <DependentUpon>202003031108157_AddCustomers.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003031559005_AddedOrders.resx">
+      <DependentUpon>202003031559005_AddedOrders.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
